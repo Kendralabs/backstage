@@ -15,7 +15,7 @@ services:
       - 8080:8080
 
   backstage:
-    image: backstage
+    image: nitin03/backstage
     restart: always
     ports:
       - 7007:7007
